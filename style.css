@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(13, 134, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#about {
+    text-align: center;
+    background-color: #d0e2ec;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 0;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#skills {
+    background-color: #d0e2ec;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(13, 134, 141);
+    color: #fff;
+    border-radius: 20px;
+}
+
+#projects {
+    background-color: #d0e2ec;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.project {
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.project img {
+    max-width: 100%;
+}
+
+#resume, #contact {
+    text-align: center;
+    background-color: #d0e2ec;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: rgb(13, 134, 141);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
+
